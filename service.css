@@ -1,0 +1,237 @@
+main{
+background-image: url(hf.jpeg);
+background-position: center;
+background-size: cover;
+position: relative;
+bottom: 205px;    
+}
+
+    
+
+.ss{
+    color: aliceblue;
+    padding: 50px;
+    position: relative;
+    bottom: 170px;
+
+   
+}
+#ss{
+    
+    font-family:Segoe Print ;
+    background-color: #e25f13;
+    border: 1px solid rgb(230, 101, 26);
+    font-size: 17px;
+    height: 300px;
+    width: 300px; 
+    padding: 10px;
+    position: relative;
+    left: 50px;
+   top: 400px;
+    border-radius: 5px;
+    &:hover{
+       background-color: #e25f13;
+       transform: scale(1.2);
+    }
+   
+
+}
+#dd{
+    background-color: #e25f13;
+    color: aliceblue;
+    position: relative;
+    bottom: 140px;
+    left: 500px;
+    font-size: 17px;
+    font-family:Segoe Print  ;
+    border: 1px solid rgb(218, 103, 9);
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    &:hover{
+        background-color: #e25f13;
+        transform: scale(1.2);
+     }
+}
+#mm{
+    background-color: #d45810;
+    color: aliceblue;
+    position: relative;
+    bottom: 462px;
+    left: 900px;
+    font-size: 17px;
+    font-family:Segoe Print  ;
+    border: 1px solid rgb(216, 93, 10);
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    &:hover{
+        background-color: #e25f13;
+        transform: scale(1.2);
+     }
+}
+body{
+    background-color: black;
+}
+h1{
+    font-family: Comic Sans MS;
+    font-size: 35px;
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+    color: aliceblue;
+      &:hover{
+        color:  #e25f13;
+      };
+    }
+h3{
+    font-size: 20px;
+    font-family: Segoe Script;
+    color: aliceblue;
+    position: relative;
+    bottom:85px;
+    left:90px
+    
+    
+       
+}
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    bottom: 160px;
+    right: 20px;
+   
+   
+  
+}
+li{
+    color: aliceblue;
+    float: right;
+    padding: 9px;
+    font-size: 20px;
+    &:hover{
+        color: rgb(231, 169, 77);
+    }
+    
+}
+li a{
+   text-decoration: none;
+   overflow: hidden;
+   color: aliceblue;
+   &:hover{
+    color:  rgb(231, 169, 77);
+   }
+}
+.cart-icon {
+    margin-right: 5px;
+  }
+  #cart-count {
+    background-color: #e25f13;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: bold;
+    position: relative;
+    right: 17px;
+  }
+  footer{
+    color: aliceblue;
+    position: relative;
+    top: 570px;
+    left: 40px;
+   }
+   .A{
+    position: relative;
+    bottom: 765px;
+    right:1230px;
+    font-size: 25px;
+    color: aliceblue;
+   } 
+   .a{
+    position: relative;
+    bottom: 790px;
+    left:50px;
+    font-size: 19px;
+   font-style: normal;
+   }
+   .B{
+    position: relative;
+    bottom: 1053px;
+    right:630px;
+    font-size: 25px;
+   }
+   h2{
+    position: relative;
+    bottom: 1075px;
+    left:630px;
+    font-size: 19px;
+    font-style: normal;
+   }
+   .C{
+    position: relative;
+    bottom: 1409px;
+    right:300px;
+    font-size: 25px;
+   }
+   .c{
+    position: relative;
+    bottom: 360px;
+    left:340px;
+    font-size: 19px;
+    font-style: normal;
+   }
+  .loc{
+    position: relative;
+    bottom: 1568px;
+    left: 949px;
+    width: 17px;
+  }
+  .em{
+    position: relative;
+    bottom: 1507px;
+    left: 929px;
+    width: 16px;
+  
+  }
+  .ph{
+    position: relative;
+    bottom: 1472px;
+    left: 909px;
+    width: 16px;
+  }
+   h6{
+    font-size: 20px;
+    text-align: end;
+    color: aliceblue;
+  }
+  #k{
+    position: relative;
+    top: 40px;right: 20px;
+
+  }
+  #l{
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+  }
+  #z{
+    position: relative;
+    top: 10px;
+    right: 20px;
+  }
+  .e{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    left: 1px;
+    font-size: 45px;
+    font-style: normal;
+    font-family: Georgia; 
+    &:hover{
+      color: #e25f13;
+    } 
+  }

@@ -1,0 +1,158 @@
+body{
+   background-image: url(bbb.jfif);
+   background-size: cover;
+  
+}
+h1{
+    color: aliceblue;
+    font-family: Comic Sans MS;
+    font-size: 35px;
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+}
+h2{
+    color: aliceblue;
+    font-family: Segoe Script;
+    font-size: 25px;
+    position: relative;
+    left: 550px;
+    bottom: 50px;
+    
+    
+}
+h3{
+    color: aliceblue;
+    font-family: Times New Roman;
+    font-size: 60px;
+    position: relative;
+    left: 550px;
+    bottom: 120px;
+    color: rgb(189, 81, 9);
+}
+.A{
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    color: rgb(219, 103, 25);
+    font-family: Segoe Print;
+    font-size: 45px;
+}
+.B{
+    position: relative;
+    bottom: 800px;
+    left: 700px;
+    color: aliceblue; 
+    font-family:  Segoe Print;
+    font-size: 45px; 
+}
+.C{
+    position: relative;
+    bottom: 1070px;
+    left: 200px;
+    color: aliceblue;
+    font-family: Segoe Print;
+    font-size: 45px;
+}
+.a{
+    color: aliceblue;
+    position: relative;
+    bottom: 130px;
+    left: 90px;
+    font-family: Ink Free;
+    font-size: 25px;
+    
+}
+.b{
+    color: aliceblue;
+    position: relative;
+    bottom :840px;
+    left: 750px;
+    font-family: Ink Free;
+    font-size: 25px;
+}
+.c{
+    color: aliceblue;
+    position: relative;
+    bottom :1090px;
+    left: 250px;
+    font-family: Ink Free;
+    font-size: 25px; 
+}
+#m{
+    position: relative;
+    bottom: 400px;
+    left: 350px;
+   width: 300px;
+   border: 1px solid burlywood;
+   opacity: 0.5;
+   &:hover{
+    transform: scale(1.2);
+    opacity: 1;
+   }
+   
+}
+#chai{
+    position: relative;
+    bottom: 1120px;
+    left: 1000px;
+   width: 250px;
+   border: 1px solid burlywood;
+   opacity: 0.5;
+   &:hover{
+    transform: scale(1.2);
+    opacity: 1;
+   }
+}
+#dess{
+    position: relative;
+    bottom: 1400px;
+    left: 620px;
+   width: 390px;
+   border: 1px solid burlywood;
+   opacity: 0.5;
+   &:hover{
+    transform: scale(1.2);
+    opacity: 1;
+   }
+}
+.logo{
+    position: relative;
+    bottom: 890px;
+    left: 420px;
+    width: 90px;
+}
+#order{
+    color: aliceblue;
+    position: relative;
+    bottom: 1300px;
+    text-align: center;
+    font-family: Segoe Print;
+    font-size: 25px;
+   
+}
+button{
+    overflow: hidden;
+    text-decoration: none;
+    background-color: rgb(233, 108, 25);
+    color: aliceblue;
+    position: relative;
+    bottom: 1300px;
+    left: 620px;
+    text-align: center;
+    padding: 10px;
+    width: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    border: 1px solid black;
+    &:hover{
+color: aliceblue;
+background-color: rgb(212, 73, 18);
+    }
+    border-radius: 5px;
+   
+}
+button a{
+    text-decoration: none;
+    overflow: hidden;
+}

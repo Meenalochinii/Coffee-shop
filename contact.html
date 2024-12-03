@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<link rel="stylesheet"href="contact.css">
+<body>
+    <style>
+    main{
+        background-image: url(contact.jpg);
+        background-size:cover;
+        position: relative;
+        right: 10px;
+        bottom: 140px;
+        width: 1600px;
+
+       
+    }
+    input[type=text], input[type=password] {
+        width: 300px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+      }
+     
+      /* Set a style for all buttons */
+      button{
+        background-color: #2772e2;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px;
+        position: relative;
+        
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      #view{
+        background-color: #2772e2;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px;
+        position: relative;
+        left: 250px;
+        bottom: 230px;
+        width: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+      }
+      /* Extra styles for the cancel button */
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+        border-radius: 5px;
+      }
+      
+      /* Center the image and position the close button */
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+      }
+      
+      img.avatar {
+        width: 40%;
+        border-radius: 50%;
+      }
+      
+      
+      
+      span.psw {
+        float: right;
+        padding-top: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 60px;
+      }
+      
+      /* Modal Content/Box */
+      .modal-content {
+        background-color: whitesmoke;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 300px; 
+        height: 350px;/* Could be more or less, depending on screen size */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 40px;
+        border-radius: 5px;
+        float: left;
+        position: relative;
+        left: 100px;
+        top: 100px;
+      }
+      
+      /* The Close Button (x) */
+      .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: rgb(224, 29, 29);
+        cursor: pointer;
+      }
+      
+      /* Add Zoom Animation */
+      .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+      }
+      
+      @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+      }
+        
+      @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+      }
+      
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+         
+        }
+        .cancelbtn {
+           width: 100%;
+          
+        }
+      }
+      #backlog{
+        width: 1900px;
+        height: 1100px;
+        position: relative;
+        right: 25px;
+        bottom: 200px;
+        filter: blur(5px);
+      }
+      #view{
+        position: relative;
+        left: 240px;
+        bottom: 100px;
+        background-color:  rgb(226, 116, 25);
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+      .co{
+        width: 600px;
+        float: left;
+        position: relative;
+        top: 100px;
+        left: 50px;
+      }
+      #link{
+        background-color:black;
+        background-size: cover;
+        position: relative;
+        bottom: 1290px;
+        right: 300px;
+        width: 1700px;
+        padding: 2px;
+       
+
+       
+      }
+      .li{
+        width: 30px;
+        position: relative;
+        left: 930px;
+        
+      }
+      .g{
+        width: 30px;
+        position: relative;
+        left: 930px;
+        color: aliceblue;
+      }
+      #mcs{
+        position: relative;
+        text-align: center;
+        position: relative;
+        left: 120px;
+        bottom: 100px;
+        font-family: Lucida Sans Unicode;
+        font-size: 20px;
+        color: #888;
+      }
+    </style>
+    <header>
+        <h1>Mysore</h1><br><h3>Coffee shop</h3>
+    
+        
+        <ul class="cart">
+            <a href="cart.html">
+            <li id="cart-count">0</li>
+            <li class="cart-icon">🛒</li></a>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="order.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="cafe.html">Home</a></li>
+            
+        </ul>
+    </header>
+    <main>
+<button id="view" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register</button>
+</div> 
+
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php" method="post">
+        
+    
+        <div class="container">
+          <input type="text" placeholder="First Name" name="uname" required>
+    
+          <input type="password" placeholder="Last Name" name="psw" required>
+
+          <input type="password" placeholder="Email" name="psw" required>
+
+          <input type="password" placeholder="Password" name="psw" required><br>
+
+          <input type = "radio" name = "subject" value = "male"> Male
+          <input type = "radio" name = "subject" value = "female"> Female<br>
+            
+          <button class="log" type="submit">Register</button>
+          
+        </div>
+    
+        <div class="container" >
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <div class="con">
+    <h5>Contact Us</h5>
+    <div id="add">
+    <h6>Address</h6>
+    <p>No.4 Gandhi Nagar,<br>Thanjavur,<br>Tamil Nadu 613005</p></div>
+    <div id="email">
+    <h6>Email</h6>
+    <p>demo@gmail.com</p></div>
+    <div id="pho">
+    <h6>Phone</h6>
+    <p>9884509116</p>
+</div>
+</div>
+    </main>
+    <footer>
+        <h6 class="A">About</h6>
+        <h2 class="a"> At Mysore coffee shop,We believe that coffee<br>
+             is more than just a drink it's an experience.<br>
+             since opening our doors in 2022,we have<br> been
+             passionate about crafting the perfect <br>cup
+             and creating a space where people can<br> come
+             together relax,and connect.</h2>
+        <h6 class="B">Quick links</h6>
+        <div class="b">
+        <h2>Home</h2>
+        <h2 >About</h2>
+        <h2 >Gallery</h2>
+        <h2 >Menu</h2>
+        <h2>Service</h2>
+        <h2 >Contact Us</h2>
+    </div>
+        <h6 class="C">Contact Us</h6>
+        <div class="c">
+        <h2>No.4 Gandhi Nagar,Thanjavur,<br>Tamil Nadu 613005</h2>
+        <h2>demo@gmail.com</h2>
+        <h2>9884509116</h2>
+    </div>
+    <img class="loc"src="loc.png">
+    <img class="em"src="em.png">
+    <img class="ph"src="phone.png">
+    <div id="link">
+    <a href="https://www.linkedin.com/in/lochini-undefined-06a962332/">
+    <img class="li"src="li.png"></a>
+    <a href="https://github.com/Meenalochinii/Coffee-shop">
+    <img class="g"src="github.png"></a>
+    <p id="mcs">Mysore Coffee Shop</p>
+  </div>
+    
+    </footer>
+
+ 
+</body>
+</html>

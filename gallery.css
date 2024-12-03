@@ -1,0 +1,108 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    &:hover{
+        color: rgb(228, 115, 40);
+    }
+}
+.gallery{
+    position: relative;
+    bottom: 100px;
+}
+body{
+    background-color: black;
+}
+.coffee{
+    float: left;
+    padding: 1px;
+   
+    
+}
+img{
+   
+    width: 330px;
+    height: 300px;
+    margin: 55px;
+    align-items: center;
+    border-radius: 1px;  
+    
+}
+button{
+    background-color: rgb(224, 102, 46);
+    border: 1px solid rgb(218, 105, 29);
+    color: aliceblue;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    left: 620px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    &:hover{
+        color: aliceblue;
+        background-color: rgb(224, 102, 46);
+    
+    }
+    border-radius: 5px;
+   
+}
+.mys{
+    font-family: Comic Sans MS;
+    font-size: 35px;
+    color: aliceblue;
+    position: relative;
+    right: 570px;
+    bottom: 25px;
+   
+    
+    
+}
+h3{
+    font-size: 20px;
+    font-family: Segoe Script;
+    color: aliceblue;
+    position: relative;
+    bottom:85px;
+    left:90px
+}
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    bottom: 160px;
+    right: 30px;
+   
+   
+  
+}
+li{
+    color: aliceblue;
+    float: right;
+    padding: 9px;
+    font-size: 20px;
+    &:hover{
+        color: rgb(231, 169, 77);
+    }
+    
+}
+li a{
+    text-decoration: none;
+    overflow: hidden;
+    color: aliceblue;
+    &:hover{
+     color:  rgb(231, 169, 77);
+    }
+ }
+ .cart-icon {
+     margin-right: 5px;
+   }
+   #cart-count {
+     background-color: #e25f13;
+     color: #fff;
+     border-radius: 50%;
+     padding: 5px 10px;
+     font-weight: bold;
+     position: relative;
+     right: 15px;
+   } 
+    

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+</head>
+    <style>
+        
+        h5{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: aliceblue;
+
+        }
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+        }
+        
+        .price {
+          color: grey;
+          font-size: 22px;
+        }
+        
+        .card button {
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #d17620;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        
+        .card button:hover {
+          opacity: 0.7;
+        }
+        .card1{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+          
+        }
+        
+        .price {
+          color: grey;
+          font-size: 22px;
+        }
+        
+        .card1 button {
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #d17620;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        
+        .card1 button:hover {
+          opacity: 0.7;
+        }
+        .card2 {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+          
+        }
+        
+        .price {
+          color: grey;
+          font-size: 22px;
+        }
+        
+        .card2 button {
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #d17620;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        
+        .card2 button:hover {
+          opacity: 0.7;
+        }
+        .card3 {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+        }
+        
+        .price {
+          color: grey;
+          font-size: 22px;
+        }
+        
+        .card3 button {
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color:#d17620;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        
+        .card3 button:hover {
+          opacity: 0.7;
+        }
+        .card4 {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+        }
+        
+        .price {
+          color: grey;
+          font-size: 22px;
+        }
+        
+        .card4 button {
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color:#d17620;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        
+        .card4 button:hover {
+          opacity: 0.7;
+        }
+        .card5 {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+        }
+        
+        .price {
+          color: grey;
+          font-size: 22px;
+        }
+        
+        .card5 button {
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #d17620;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        
+        .card5 button:hover {
+          opacity: 0.7;
+        }
+        .right{
+            float: left;
+            position: relative;
+            left: 100px;
+            bottom: 100px;
+        }
+        .left{
+            float: right;
+            position: relative;
+            bottom: 935px;
+            right: 100px;
+        }
+        .center{
+           float: none;
+           position: relative;
+           bottom: 100px;
+          
+        }
+        #link{
+  background-color:black;
+  background-size: cover;
+  position: relative;
+  bottom: 1190px;
+  right: 300px;
+  width: 1700px;
+  padding: 2px;
+ 
+
+ 
+}
+.li{
+  width: 30px;
+  position: relative;
+  left: 930px;
+  bottom: 70px;
+  
+}
+.g{
+  width: 30px;
+  position: relative;
+  left: 930px;
+  bottom: 70px;
+  color: aliceblue;
+}
+#mcs{
+  position: relative;
+  text-align: center;
+  position: relative;
+  left: 110px;
+  bottom: 170px;
+  font-family: Lucida Sans Unicode;
+  font-style: normal;
+  font-size: 20px;
+  color: #888;
+}
+
+        </style>
+        </head>
+        <link rel="stylesheet"href="cart.css">
+        <body>
+            <header>
+                <h1>Mysore</h1><br><h3>Coffee shop</h3>
+            
+                
+                <ul class="cart">
+                    <a href="cart.html">
+                    <li id="cart-count">0</li>
+                    <li class="cart-icon">🛒</li></a>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="order.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="cafe.html">Home</a></li>     
+                </ul>
+            </header>
+        <h2 style="text-align:center">Order</h2>
+        <div class ="right">
+        <div class="card">
+          <img src="c5.jfif" alt="Denim Jeans" style="width:100%">
+          <h5>Cappuccino</h5>
+          <p class="price">$1.60</p>
+          <p><button class="add-to-cart">Add to Cart</button></p>
+        </div>
+        <div class="card1">
+            <img src="esp.jpg" alt="Denim Jeans" style="width:100%">
+            <h5>Esprresso</h5>
+            <p class="price">$1.01</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+        </div>
+        <div class="center">
+          <div class="card2">
+            <img src="tea.jpg" alt="Denim Jeans" style="width:100%">
+            <h5>Masala Tea</h5>
+            <p class="price">$0.30</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card3">
+            <img src="lem.jpg" alt="Denim Jeans" style="width:100%">
+            <h5>Lemon Tea</h5>
+            <p class="price">$0.12</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+        </div>
+        <div class="left">
+          <div class="card4">
+            <img src="wa.jpg" alt="Denim Jeans" style="width:100%">
+            <h5>chocolate Waffle</h5>
+            <p class="price">$2.13</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+          <div class="card5">
+            <img src="br.jpg" alt="Denim Jeans" style="width:100%">
+            <h5>Brownie</h5>
+            <p class="price">$2.31</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+        </div>
+        /main>
+<footer>
+    <h6 class="A">About</h6>
+    <h2 class="a"> At Mysore coffee shop,We believe that coffee<br>
+         is more than just a drink it's an experience.<br>
+         since opening our doors in 2022,we have<br> been
+         passionate about crafting the perfect <br>cup
+         and creating a space where people can<br> come
+         together relax,and connect.</h2>
+    <h6 class="B">Quick links</h6>
+    <div class="b">
+    <h2>Home</h2>
+    <h2 >About</h2>
+    <h2 >Gallery</h2>
+    <h2 >Menu</h2>
+    <h2>Service</h2>
+    <h2 >Contact Us</h2>
+</div>
+    <h6 class="C">Contact Us</h6>
+    <div class="c">
+    <h2>No.4 Gandhi Nagar,Thanjavur,<br>Tamil Nadu 613005</h2>
+    <h2>demo@gmail.com</h2>
+    <h2>9884509116</h2>
+</div>
+<img class="loc"src="loc.png">
+<img class="em"src="em.png">
+<img class="ph"src="phone.png">
+<div id="link">
+  <a href="https://www.linkedin.com/in/lochini-undefined-06a962332/">
+  <img class="li"src="li.png"></a>
+  <a href="https://github.com/Meenalochinii/Coffee-shop">
+  <img class="g"src="github.png"></a>
+  <p id="mcs">Mysore Coffee Shop</p>
+  </div>
+
+</footer>
+</body>
+<script>
+// Select the cart count display
+const cartCount = document.getElementById("cart-count");
+
+// Select the "Add to Cart" button
+const addToCartButton = document.querySelector(".add-to-cart");
+
+// Initialize cart count
+let count = 0;
+
+// Add event listener to the button
+addToCartButton.addEventListener('click', () => {
+  count++;
+  cartCount.textContent = count;
+  alert('Item added to cart!');
+});
+   </script>
+</html>

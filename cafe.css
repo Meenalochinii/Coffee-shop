@@ -1,0 +1,270 @@
+body{
+    background-color: black;
+    
+}
+h1{
+    font-family: Comic Sans MS;
+    font-size: 35px;
+    color: aliceblue;
+    &:hover{
+      color:  #e25f13;
+    }
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+   
+    
+    
+}
+h3{
+    font-size: 20px;
+    font-family: Segoe Script;
+    color: aliceblue;
+    position: relative;
+    bottom:85px;
+    left:90px
+    
+    
+       
+}
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    bottom: 160px;
+    right: 100px;
+   
+   
+  
+}
+li{
+    color: aliceblue;
+    float: right;
+    padding: 9px;
+    font-size: 20px;
+    &:hover{
+        color: rgb(231, 169, 77);
+    }
+    
+}
+li a{
+   text-decoration: none;
+   overflow: hidden;
+   color: aliceblue;
+   &:hover{
+    color:  rgb(231, 169, 77);
+   }
+}
+#food{
+  width:1420px;
+    height:750px;
+    position: relative;
+    bottom: 197px;
+    right:8px;
+    
+}
+#m{
+    position: relative;
+    bottom: 800px;
+    left: 550px;
+    font-style: italic;
+}
+#home{
+    font-size: 70px;
+    position: relative;
+    bottom:900px;
+    left: 150px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h5{
+    position: relative;
+    bottom: 70px;
+    color: rgb(170, 58, 7);
+}
+p{
+    font-size: 20px;
+    
+    position: relative;
+    bottom: 130px;
+    left: 12px;
+    font-style: italic;
+}
+button{
+    position: relative;
+    bottom: 150px;
+    left:12px;
+    width: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(221, 81, 16);
+    border: 1px solid rgb(233, 81, 11);
+    color: aliceblue;
+    &:hover{
+        background-color: rgb(211, 77, 24);
+    }
+}
+.cart-icon {
+    margin-right: 5px;
+  }
+  #cart-count {
+    background-color: #e25f13;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: bold;
+    position: relative;
+    right: 17px;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+  }
+  
+  .product h2 {
+    margin-top: 0;
+  }
+  
+  .add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #218838;
+  }
+  
+ footer{
+  color: aliceblue;
+  position: relative;
+  bottom: 100px;
+ }
+ .A{
+  position: relative;
+  bottom: 755px;
+  left:70px;
+  font-size: 25px;
+  font-style: normal;
+ } 
+ .a{
+  position: relative;
+  bottom: 787px;
+  left:90px;
+  font-size: 19px;
+  font-style: normal;
+ }
+ .B{
+  position: relative;
+  bottom: 1047px;
+  left:590px;
+  font-size: 25px;
+  font-style: normal;
+ }
+ h2{
+  position: relative;
+  bottom: 1075px;
+  left:630px;
+  font-size: 19px;
+  font-style: normal;
+ }
+ .C{
+  position: relative;
+  bottom: 1405px;
+  left:910px;
+  font-size: 25px;
+  font-style: normal;
+ }
+ .c{
+  position: relative;
+  bottom: 360px;
+  left:370px;
+  font-size: 19px;
+  font-style: normal;
+ }
+.loc{
+  position: relative;
+  bottom: 1570px;
+  left: 975px;
+  width: 20px;
+}
+.em{
+  position: relative;
+  bottom: 1512px;
+  left: 953px;
+  width: 17px;
+
+}
+.ph{
+  position: relative;
+  bottom: 1475px;
+  left: 933px;
+  width: 17px;
+}
+.login{
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 17px;
+  border: 1px solid rgb(214, 98, 21);
+  background-color: rgb(226, 116, 25);
+  color: aliceblue;
+  position: relative;
+  left: 1205px;
+ bottom: 1040px;
+ &:hover{
+  background-color: #eb8042;
+  color: aliceblue;
+ }
+}
+.login a{
+  text-decoration: none;
+  overflow: hidden;
+}
+#link{
+  background-color:black;
+  background-size: cover;
+  position: relative;
+  bottom: 1230px;
+  right: 280px;
+  width: 1700px;
+  padding: 2px;
+ 
+
+ 
+}
+.li{
+  width: 30px;
+  position: relative;
+  left: 930px;
+  
+}
+.g{
+  width: 30px;
+  position: relative;
+  left: 930px;
+  color: aliceblue;
+}
+#mcs{
+  position: relative;
+  text-align: center;
+  position: relative;
+  left: 110px;
+  bottom: 100px;
+  font-family: Lucida Sans Unicode;
+  font-style: normal;
+  font-size: 20px;
+  color: #888;
+}

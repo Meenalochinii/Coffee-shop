@@ -1,0 +1,212 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: Comic Sans MS;
+    font-size: 35px;
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+    color: aliceblue;
+    &:hover{
+      color:  #e25f13;
+    }
+   
+    
+    
+}
+h3{
+    font-size: 20px;
+    font-family: Segoe Script;
+    color: aliceblue;
+    position: relative;
+    bottom:85px;
+    left:90px
+    
+    
+       
+}
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    bottom: 160px;
+    right: 30px;
+   
+   
+  
+}
+li{
+    color: aliceblue;
+    float: right;
+    padding: 9px;
+    font-size: 20px;
+    &:hover{
+        color: rgb(231, 169, 77);
+    }
+    
+}
+li a{
+   text-decoration: none;
+   overflow: hidden;
+   color: aliceblue;
+   &:hover{
+    color:  rgb(231, 169, 77);
+   }
+}
+.cart-icon {
+    margin-right: 5px;
+  }
+  #cart-count {
+    background-color: #e25f13;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: bold;
+    position: relative;
+    right: 17px;
+  }
+  h2{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  main{
+    position: relative;
+    bottom: 100px;
+  }
+  footer{
+    color: aliceblue;
+    position: relative;
+    top: 700px;
+   }
+   .A{
+    position: relative;
+    bottom: 750px;
+    left:20px;
+    font-size: 25px;
+    font-family:Georgia ;
+   } 
+   .a{
+    position: relative;
+    bottom: 770px;
+    left:40px;
+    font-size: 19px;
+   font-family: Palatino Linotype ;
+   font-style: normal;
+   }
+   .B{
+    position: relative;
+    bottom: 1053px;
+    left:550px;
+    font-size: 25px;
+    font-family:Georgia ;
+   }
+   h2{
+    position: relative;
+    bottom: 1075px;
+    left:630px;
+    font-size: 19px;
+    font-family: Palatino Linotype;
+    font-style: normal;
+   }
+   .C{
+    position: relative;
+    bottom: 1435px;
+    left:900px;
+    font-size: 25px;
+    font-family:Georgia ;
+   }
+   .c{
+    position: relative;
+    bottom: 390px;
+    left:340px;
+    font-size: 19px;
+    font-family: Palatino Linotype;
+    font-style: normal;
+   }
+  .loc{
+    position: relative;
+    bottom: 1617px;
+    left: 945px;
+    width: 20px;
+  }
+  .em{
+    position: relative;
+    bottom: 1547px;
+    left: 923px;
+    width: 17px;
+  
+  }
+  .ph{
+    position: relative;
+    bottom: 1507px;
+    left: 902px;
+    width: 17px;
+  }
+  footer{
+    color: aliceblue;
+    position: relative;
+    bottom: 90px;
+    left: 40px;
+   }
+   .A{
+    position: relative;
+    bottom: 750px;
+    left:20px;
+    font-size: 25px;
+   } 
+   .a{
+    position: relative;
+    bottom: 770px;
+    left:40px;
+    font-size: 19px;
+   font-style: normal;
+   }
+   .B{
+    position: relative;
+    bottom: 1053px;
+    left:550px;
+    font-size: 25px;
+   }
+   h2{
+    position: relative;
+    bottom: 1075px;
+    left:630px;
+    font-size: 19px;
+    font-style: normal;
+   }
+   .C{
+    position: relative;
+    bottom: 1435px;
+    left:900px;
+    font-size: 25px;
+   }
+   .c{
+    position: relative;
+    bottom: 390px;
+    left:340px;
+    font-size: 19px;
+    font-style: normal;
+   }
+  .loc{
+    position: relative;
+    bottom: 1612px;
+    left: 949px;
+    width: 17px;
+  }
+  .em{
+    position: relative;
+    bottom: 1543px;
+    left: 928px;
+    width: 17px;
+  
+  }
+  .ph{
+    position: relative;
+    bottom: 1503px;
+    left: 907px;
+    width: 17px;
+  }
+  
+ 
